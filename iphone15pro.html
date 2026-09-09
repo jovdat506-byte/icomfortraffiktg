@@ -32,10 +32,16 @@
       box-sizing: border-box;
     }
 
+    html,
+    body {
+      width: 100%;
+      min-height: 100%;
+    }
+
     body {
       font-family: Arial, sans-serif;
       background: #07101f;
-      color: white;
+      color: #ffffff;
     }
 
     .hero {
@@ -59,6 +65,7 @@
       font-size: 22px;
       font-weight: 700;
       margin-bottom: 20px;
+      color: #ffffff;
     }
 
     .brand span {
@@ -69,44 +76,16 @@
       width: 100%;
       max-width: 520px;
       border-radius: 24px;
-      margin-bottom: 26px;
+      margin-bottom: 28px;
       box-shadow: 0 20px 50px rgba(0,0,0,.35);
     }
 
-    h1 {
-      font-size: clamp(38px, 7vw, 62px);
-      line-height: 1;
-      margin-bottom: 16px;
-    }
-
-    .price {
-      font-size: clamp(25px, 5vw, 38px);
+    .main-text {
+      font-size: clamp(28px, 5vw, 42px);
+      line-height: 1.15;
       font-weight: 700;
-      color: #d7b181;
-      margin-bottom: 15px;
-    }
-
-    .description {
-      font-size: 18px;
-      line-height: 1.5;
-      color: #d4dae4;
+      color: #ffffff;
       margin-bottom: 28px;
-    }
-
-    .info {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-bottom: 26px;
-    }
-
-    .info-item {
-      padding: 11px 16px;
-      background: rgba(255,255,255,.07);
-      border: 1px solid rgba(255,255,255,.08);
-      border-radius: 12px;
-      font-size: 14px;
     }
 
     .btn {
@@ -119,6 +98,7 @@
       text-decoration: none;
       font-size: 18px;
       font-weight: 700;
+      transition: .2s ease;
     }
 
     .btn:active {
@@ -130,17 +110,25 @@
         padding: 18px 16px;
       }
 
+      .brand {
+        font-size: 20px;
+        margin-bottom: 16px;
+      }
+
       .phone-image {
         max-width: 100%;
-        margin-bottom: 22px;
+        margin-bottom: 24px;
       }
 
-      h1 {
-        font-size: 42px;
+      .main-text {
+        font-size: 30px;
+        line-height: 1.15;
+        margin-bottom: 24px;
       }
 
-      .description {
-        font-size: 16px;
+      .btn {
+        font-size: 17px;
+        padding: 17px 18px;
       }
     }
   </style>
@@ -149,14 +137,20 @@
 <body>
 
   <noscript>
-    <img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1082838920822016&ev=PageView&noscript=1"/>
+    <img
+      height="1"
+      width="1"
+      style="display:none"
+      src="https://www.facebook.com/tr?id=1082838920822016&ev=PageView&noscript=1"
+    />
   </noscript>
 
   <section class="hero">
     <div class="content">
 
-      <div class="brand">i<span>Comfort</span></div>
+      <div class="brand">
+        i<span>Comfort</span>
+      </div>
 
       <img
         src="1555.webp"
@@ -164,22 +158,8 @@
         class="phone-image"
       >
 
-<div class="price">
-  199$ boshlang‘ich to‘lov bilan iPhone 15 Pro xarid qiling.
-</div>
-
-<a
-  href="https://t.me/+XkJOcJ24piY3YTky"
-  target="_blank"
-  class="btn"
-  onclick="fbq('track', 'Lead');"
->
-  Oylik to‘lovlari bilan tanishing
-</a>
-
-      <div class="info">
-        <div class="info-item">Faqat 1 dona pasport</div>
-        <div class="info-item">Qulay bo‘lib to‘lash</div>
+      <div class="main-text">
+        199$ boshlang‘ich to‘lov bilan iPhone 15 Pro xarid qiling.
       </div>
 
       <a
@@ -188,7 +168,7 @@
         class="btn"
         onclick="fbq('track', 'Lead');"
       >
-        Assortiment bilan tanishing
+        Oylik to‘lovlari bilan tanishing
       </a>
 
     </div>

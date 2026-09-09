@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iPhone 15 Pro | iComfort</title>
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '1082838920822016');
+  fbq('track', 'PageView');
+  fbq('track', 'ViewContent', {
+    content_name: 'iPhone 15 Pro',
+    content_category: 'iPhone'
+  });
+  </script>
+  <!-- End Meta Pixel Code -->
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #07101f;
+      color: white;
+    }
+
+    .hero {
+      min-height: 100svh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 18px;
+      background:
+        radial-gradient(circle at top, #1a3153 0%, transparent 45%),
+        linear-gradient(180deg, #101d33 0%, #07101f 100%);
+    }
+
+    .content {
+      width: 100%;
+      max-width: 680px;
+      text-align: center;
+    }
+
+    .brand {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .brand span {
+      color: #d7b181;
+    }
+
+    .phone-image {
+      width: 100%;
+      max-width: 520px;
+      border-radius: 24px;
+      margin-bottom: 26px;
+      box-shadow: 0 20px 50px rgba(0,0,0,.35);
+    }
+
+    h1 {
+      font-size: clamp(38px, 7vw, 62px);
+      line-height: 1;
+      margin-bottom: 16px;
+    }
+
+    .price {
+      font-size: clamp(25px, 5vw, 38px);
+      font-weight: 700;
+      color: #d7b181;
+      margin-bottom: 15px;
+    }
+
+    .description {
+      font-size: 18px;
+      line-height: 1.5;
+      color: #d4dae4;
+      margin-bottom: 28px;
+    }
+
+    .info {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 26px;
+    }
+
+    .info-item {
+      padding: 11px 16px;
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 12px;
+      font-size: 14px;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 18px 22px;
+      border-radius: 15px;
+      background: #d7b181;
+      color: #07101f;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .btn:active {
+      transform: scale(.98);
+    }
+
+    @media (max-width: 600px) {
+      .hero {
+        padding: 18px 16px;
+      }
+
+      .phone-image {
+        max-width: 100%;
+        margin-bottom: 22px;
+      }
+
+      h1 {
+        font-size: 42px;
+      }
+
+      .description {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1082838920822016&ev=PageView&noscript=1"/>
+  </noscript>
+
+  <section class="hero">
+    <div class="content">
+
+      <div class="brand">i<span>Comfort</span></div>
+
+      <img
+        src="1555.webp"
+        alt="iPhone 15 Pro"
+        class="phone-image"
+      >
+
+      <h1>iPhone 15 Pro</h1>
+
+      <div class="price">
+        Boshlang‘ich to‘lov — 199$
+      </div>
+
+      <p class="description">
+        iPhone 15 Pro’ni qulay bo‘lib to‘lash shartlari asosida xarid qiling.
+      </p>
+
+      <div class="info">
+        <div class="info-item">Faqat 1 dona pasport</div>
+        <div class="info-item">Qulay bo‘lib to‘lash</div>
+      </div>
+
+      <a
+        href="https://t.me/+XkJOcJ24piY3YTky"
+        target="_blank"
+        class="btn"
+        onclick="fbq('track', 'Lead');"
+      >
+        Assortiment bilan tanishing
+      </a>
+
+    </div>
+  </section>
+
+</body>
+</html>
